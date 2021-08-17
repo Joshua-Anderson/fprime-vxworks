@@ -25,6 +25,6 @@ namespace Os {
         POINTER_CAST a8,
         POINTER_CAST a9
     ) {
-        ::logMsg(const_cast<char*>(fmt), a1, a2, a3, a4, a5, a6);
+        ::logMsg(const_cast<char*>(fmt), a0, a1, a2, a3, a4, a5);
     }
 }
